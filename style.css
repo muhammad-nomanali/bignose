@@ -1,0 +1,248 @@
+@import url("https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Gloria Hallelujah", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+.navbar {
+  background-color: #9ab934;
+}
+.navbar button {
+  padding: 10px 60px;
+  background-color: #9ab934;
+  border: 2px solid white;
+  color: white;
+  text-transform: uppercase;
+  font-size: 22px;
+}
+.navbar button:hover {
+  background-color: white;
+  color: #d89286;
+}
+.navbar-brand .navbar-logo {
+  width: 100px;
+  height: 100px;
+}
+.navbar-brand .navbar-logo img {
+  width: 100%;
+  border-radius: 100px;
+}
+.navbar-nav .nav-item .nav-link {
+  font-size: 22px;
+  text-transform: capitalize;
+  color: white;
+  font-weight: 900;
+  margin: 0 10px;
+  border-bottom: 2px solid #1e1818;
+}
+
+.navbar-nav .nav-item .nav-link:focus {
+  color: #83340f;
+  border-bottom: 2px solid white;
+}
+.navbar-nav .nav-item .nav-link:hover {
+  color: #83340f;
+  border-bottom: 2px solid white;
+}
+/* hero-section */
+.hero-section {
+  background-color: #eceadb;
+  padding-bottom: 40px;
+}
+.hero-section .hero-content h2 {
+  font-size: 70px;
+  text-transform: capitalize;
+  padding-top: 60px;
+}
+.hero-section .hero-img {
+  width: 60%;
+  padding-top: 50px;
+  position: relative;
+  animation: moveRight 5s infinite;
+}
+.hero-section .hero-img img {
+  width: 100%;
+}
+.hero-icons {
+  font-size: 50px;
+}
+.hero-icons button {
+  padding: 14px 60px;
+  background-color: #9ab934;
+  border: 2px solid white;
+  color: white;
+  text-transform: uppercase;
+  font-size: 22px;
+}
+.hero-icons button:hover {
+  background-color: white;
+  color: #d89286;
+}
+@keyframes moveRight {
+  0% {
+    transform: translateX(-30%);
+  }
+  50% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-30%);
+  }
+}
+.about-content {
+  background-color: #4c2e3e;
+}
+.about-content p {
+  color: white;
+  font-size: 24px;
+  text-align: center;
+  padding: 20px;
+  overflow: hidden;
+}
+/* road map section */
+.roadmap-section {
+  padding-bottom: 20px;
+}
+.roadmap-section h2 {
+  font-size: 70px;
+  padding-top: 40px;
+  text-transform: capitalize;
+  color: #9ab934;
+}
+.roadmap-section p span {
+  font-size: 30px;
+  font-weight: 900;
+  text-transform: capitalize;
+  color: #9ab934;
+}
+.roadmap-section p {
+  font-size: 24px;
+
+  text-transform: capitalize;
+  color: black;
+}
+/* whitepaper section */
+
+.white-section h2 {
+  text-align: center;
+  margin-top: 30px;
+  color: white;
+  font-weight: bolder;
+  background-color: #4c2e3e;
+  padding: 20px 0;
+}
+.white-section p {
+  width: 80%;
+  margin: 0 auto;
+  padding-top: 30px;
+  color: white;
+
+  background-color: #9ab934;
+  padding: 10px;
+  cursor: pointer;
+  overflow: hidden;
+}
+.white-section p:hover {
+  color: #9ab934;
+
+  background-color: black;
+}
+.white-section p span {
+    color: black;
+    font-weight:bolder;
+    font-size: 20px;
+  }
+  .white-section p:hover span{
+    color: white;
+  }
+/* timer */
+.overlay {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #4c2e3e;
+    margin-top: 20px;
+    padding-bottom: 20px;
+  
+  }
+  .main{
+   
+    width: 80%;
+    margin: 0 auto;
+  }
+  .title {
+    margin-top: 10px;
+   
+    color: white;
+    text-align: center;
+    font-size: 2.5rem;
+    display: none;
+  }
+  
+  .col {
+    margin-top: 20px;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    color: white;
+  }
+  
+  .col div {
+    width: 250px;
+    text-align: center;
+    
+  }
+  
+  input {
+    width: 50%;
+    background-color: #9ab934;
+    border-color: transparent;
+    border-radius: 5px;
+    height: 50px;
+    text-align: center;
+    font-size: 30px;
+  }
+  /* bignoseimages */
+  .bignose-images h2{
+    text-transform: capitalize;
+    font-size: 70px;
+    color: white;
+    text-align: center;
+    padding-top: 30px;
+  }
+  .bignose-images{
+    background-color: #9ab934;
+    padding-bottom: 30px;
+  }
+  .bignose-images .image{
+    transition: all ease 0.5s;
+  }
+  .bignose-images .image:hover{
+    scale: 1.1;
+    transition: all ease 0.5s;
+  }
+  .input1{
+    background-color: white;
+    padding: 10px;
+  }
+  .input1 h3{
+    font-weight: bolder;
+  }
+  /* fooyter section */
+
+  .footer-section{
+    background-color:  #edebdc ;
+    padding: 30px 0;
+  }
+  .footer-content{
+    background-color: #9ab934;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+  }
