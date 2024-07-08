@@ -57,6 +57,7 @@
   font-size: 70px;
   text-transform: capitalize;
   padding-top: 60px;
+  overflow: hidden;
 }
 .hero-section .hero-img {
   width: 60%;
