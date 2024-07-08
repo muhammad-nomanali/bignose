@@ -1,20 +1,18 @@
 @import url("https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap");
 
 * {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-  font-family: "Gloria Hallelujah", cursive;
-  font-weight: 400;
+  font-family: "Grandstander", cursive;
+  font-optical-sizing: auto;
+  font-weight: weight;
   font-style: normal;
 
 }
 .navbar {
-  background-color: #9ab934;
+  background-color: #000000;
 }
 .navbar button {
   padding: 10px 60px;
-  background-color: #9ab934;
+  background-color: transparent;
   border: 2px solid white;
   color: white;
   text-transform: uppercase;
@@ -38,11 +36,11 @@
   color: white;
   font-weight: 900;
   margin: 0 10px;
-  border-bottom: 2px solid #9ab934;
+  border-bottom: 2px solid #000000;
 }
 
 .navbar-nav .nav-item .nav-link:focus {
-  color: #83340f;
+  color: #e98d63;
   border-bottom: 2px solid white;
 }
 .navbar-nav .nav-item .nav-link:hover {
@@ -51,7 +49,7 @@
 }
 /* hero-section */
 .hero-section {
-  background-color: #eceadb;
+background-image: url(./asset/images/Design-sans-titre6\ \(1\).png);
   padding-bottom: 40px;
 }
 .hero-section .hero-content h2 {
@@ -59,6 +57,7 @@
   text-transform: capitalize;
   padding-top: 60px;
   overflow: hidden;
+  color: white;
 }
 .hero-section .hero-img {
   width: 60%;
@@ -71,10 +70,11 @@
 }
 .hero-icons {
   font-size: 50px;
+  color: white;
 }
 .hero-icons button {
   padding: 14px 60px;
-  background-color: #9ab934;
+  background-color: #6b3399;
   border: 2px solid white;
   color: white;
   text-transform: uppercase;
@@ -133,25 +133,26 @@
 /* road map section */
 .roadmap-section {
   padding-bottom: 20px;
+  background-color: #6c349b;
 
 }
 .roadmap-section h2 {
   font-size: 70px;
   padding-top: 40px;
   text-transform: capitalize;
-  color: #9ab934;
+  color: white;
 }
 .roadmap-section p span {
   font-size: 30px;
   font-weight: 900;
   text-transform: capitalize;
-  color: #9ab934;
+  color: #fb51f8;
 }
 .roadmap-section p {
   font-size: 24px;
 
   text-transform: capitalize;
-  color: black;
+  color: white;
 }
 /* whitepaper section */
 
