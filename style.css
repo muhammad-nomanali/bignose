@@ -247,7 +247,7 @@ background-image: url(./asset/images/Design-sans-titre6\ \(1\).png);
   }
   .bignose-images{
   
-    background-color: #9ab934;
+    background-color: #000000;
     padding-bottom: 30px;
   }
   .bignose-images .image{
@@ -268,12 +268,13 @@ background-image: url(./asset/images/Design-sans-titre6\ \(1\).png);
 
   .footer-section{
    
-    background-color:  #edebdc ;
+    background-image: url(./asset/images/Design-sans-titre6\ \(1\).png) ;
+    background-position: center;
     padding: 30px 0;
+    color: white;
   }
   .footer-content{
-    background-color: #9ab934;
     color: white;
     text-align: center;
-    padding: 10px 0;
+    padding: 30px 0;
   }
