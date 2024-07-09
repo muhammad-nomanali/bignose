@@ -154,6 +154,8 @@ background-image: url(./asset/images/Design-sans-titre6\ \(1\).png);
   text-transform: capitalize;
   color: white;
 }
+/* images */
+
 /* whitepaper section */
 
 .white-section h2 {
@@ -253,7 +255,7 @@ background-image: url(./asset/images/Design-sans-titre6\ \(1\).png);
     padding-top: 30px;
   }
   .bignose-images{
-  
+  overflow: hidden;
     background-color: #000000;
     padding-bottom: 30px;
   }
@@ -270,6 +272,14 @@ background-image: url(./asset/images/Design-sans-titre6\ \(1\).png);
   }
   .input1 h3{
     font-weight: bolder;
+  }
+  /* media query */
+  @media screen and (max-width:600px) {
+    input{
+      width: 80%;
+font-size: 22px;
+
+    }
   }
   /* fooyter section */
 
