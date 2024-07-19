@@ -24,6 +24,9 @@ nav .navbar-logo img {
   .project-icons {
     display: block !important;
   }
+  nav .navbar-logo{
+    width: 40%;
+  }
 }
 /* hero section */
 .hero-section {
