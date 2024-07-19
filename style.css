@@ -42,7 +42,7 @@ nav .navbar-logo img {
   line-height: 62.86px;
   text-align: left;
   color: white;
-  padding-top: 140px;
+padding-top: 40px;
 }
 .hero-section p {
   font-family: Open Sauce One;
@@ -52,6 +52,12 @@ nav .navbar-logo img {
   text-align: left;
   color: white;
   overflow: hidden;
+}
+.hero-content button{
+  margin-top: 150px;
+  border: none;
+  padding: 6px 20px;
+border-radius: 20px;
 }
 /* timer */
 .hero-timer {
@@ -228,9 +234,52 @@ input {
 
 .project-section .project-content p {
   overflow: hidden;
+  width: 80%;
 }
 .project-content h4 {
   text-transform: capitalize;
+}
+.project-section .project-content button{
+  background-color: black;
+  color: white;
+  text-transform: capitalize;
+  border-radius: 20px;
+  padding: 8px 20px;
+  border: none;
+  word-spacing: 1px;
+}
+.project-card{
+  width: 40%;
+  height: 20vh;
+  background-color: #e1e0d0;
+position: relative;
+top: 203px;
+right: -355px;
+border: 6px solid white;
+border-radius: 10px;
+
+}
+.project-card1{
+  width: 40%;
+  height: 20vh;
+  background-color: #e1e0d0;
+position: relative;
+top: 70px;
+right: 90px;
+border: 6px solid white;
+border-radius: 10px;
+
+}
+.project-card2{
+  width: 40%;
+  height: 20vh;
+  background-color: #e1e0d0;
+position: relative;
+top: -116px;
+    right: 122px;
+border: 6px solid white;
+border-radius: 10px;
+
 }
 .project-icon i {
   color: #ed8569;
@@ -244,6 +293,12 @@ input {
 }
 .project-section .project-img img {
   width: 100%;
+}
+@media screen and (max-width:600px) {
+  .project-section .project-content p {
+ 
+  width: 100%;
+}
 }
 /* contact-section */
 .contact-section {
