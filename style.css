@@ -19,12 +19,19 @@ nav .navbar-logo {
 nav .navbar-logo img {
   width: 100%;
 }
+/* media query */
+@media screen and (max-width: 600px) {
+  .project-icons {
+    display: block !important;
+  }
+}
 /* hero section */
 .hero-section {
   background-color: #ed8569;
   border-radius: 30px;
   width: 98%;
   margin: 0 auto;
+  overflow: hidden;
 }
 .hero-section h2 {
   font-size: 50px;
@@ -41,6 +48,7 @@ nav .navbar-logo img {
   line-height: 24px;
   text-align: left;
   color: white;
+  overflow: hidden;
 }
 /* timer */
 .hero-timer {
@@ -129,6 +137,23 @@ input {
   height: 30vh;
   border-radius: 40px;
   width: 95%;
+  overflow: hidden;
+}
+/* mecdia query */
+
+@media screen and (max-width: 600px) {
+  .hero-section h2 {
+    width: 30px !important;
+    width: 100% !important;
+    line-height: 50px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .hero-section h2 {
+    width: 20px !important;
+    width: 100% !important;
+    line-height: 50px;
+  }
 }
 /* card section */
 .card-section {
@@ -167,6 +192,12 @@ input {
   align-items: center;
   justify-content: center;
 }
+/* media query */
+@media screen and (max-width: 500px) {
+  .mt-xs-3 {
+    margin-top: 20px;
+  }
+}
 /* project-section */
 
 .project-section {
@@ -176,6 +207,7 @@ input {
   background-size: cover;
   background-repeat: no-repeat;
   padding-top: 70px;
+  overflow: hidden;
 }
 .project-section .project-content {
   padding-top: 80px;
@@ -192,14 +224,7 @@ input {
 }
 
 .project-section .project-content p {
-  width: 600px;
-  height: 108px;
-  top: 2293px;
-  left: 100px;
-  gap: 0px;
-  opacity: 0px;
-  margin: 0;
-  padding-top: 10px;
+  overflow: hidden;
 }
 .project-content h4 {
   text-transform: capitalize;
@@ -212,6 +237,7 @@ input {
   width: 100%;
   border: 8px solid white;
   border-radius: 56px;
+  overflow: hidden;
 }
 .project-section .project-img img {
   width: 100%;
@@ -233,6 +259,7 @@ input {
 }
 .contact-section p {
   width: 71%;
+  overflow: hidden;
 }
 .locatio-icon i {
   width: 40px;
@@ -263,6 +290,7 @@ input {
   font-size: 14px;
   font-weight: 500;
   padding-left: 10px;
+  overflow: hidden;
 }
 .contact-form textarea {
   width: 120%;
@@ -270,6 +298,7 @@ input {
   height: 16vh;
   border: none;
   border-radius: 10px;
+  overflow: hidden;
 }
 .contact-form textarea::placeholder {
   text-align: left;
@@ -289,6 +318,25 @@ input {
   text-transform: capitalize;
   padding: 12px 0;
   border-radius: 50px;
+  overflow: hidden;
+}
+/* media query */
+@media screen and (max-width: 600px) {
+  .contact-form input {
+    width: 100%;
+  }
+  .contact-form textarea {
+    width: 100%;
+  }
+  .contact-form button {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 600px) {
+  .contact-section p {
+    width: 100%;
+    overflow: hidden;
+  }
 }
 /* second last section */
 .radium-content h3 {
@@ -299,6 +347,7 @@ input {
 .radium-content p {
   width: 76%;
   padding-top: 20px;
+  overflow: hidden;
 }
 .solsacn {
   background-color: #df96ae;
@@ -329,26 +378,51 @@ input {
   margin: 0;
   right: 55px;
 }
-.solscan2 h5{
+.solscan2 h5 {
   font-size: 8px;
   margin: 0;
   color: white;
   overflow: hidden;
 }
-.image-mbl{
+.image-mbl {
   width: 25%;
   position: relative;
   bottom: 220px;
   left: 32px;
+  overflow: hidden;
 }
-.image-mbl img{
+.image-mbl img {
   width: 100%;
 }
+@media screen and (max-width: 600px) {
+  .mbl {
+    position: relative;
+    left: 70px;
+  }
+  .solsacn {
+    left: 70px;
+ 
+  }
+  .solscan2 {
+    width: 14%;
+    right: -10px;
+    top: 80px;
+  }
+  .image-mbl{
+    left: 94px;
+  }
+  .radium-content h3{
+    font-size: 40px;
+  }
+  .radium-content p{
+  width: 100%;
+  }
+}
 /* footer-section */
-.footer-section{
+.footer-section {
   padding-top: 70px;
 }
-.footer-section .footer-content p{
+.footer-section .footer-content p {
   padding-top: 10px;
   width: 80%;
 }
