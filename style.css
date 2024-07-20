@@ -24,7 +24,7 @@ nav .navbar-logo img {
   .project-icons {
     display: block !important;
   }
-  nav .navbar-logo{
+  nav .navbar-logo {
     width: 40%;
   }
 }
@@ -42,7 +42,7 @@ nav .navbar-logo img {
   line-height: 62.86px;
   text-align: left;
   color: white;
-padding-top: 40px;
+  padding-top: 40px;
 }
 .hero-section p {
   font-family: Open Sauce One;
@@ -53,11 +53,11 @@ padding-top: 40px;
   color: white;
   overflow: hidden;
 }
-.hero-content button{
+.hero-content button {
   margin-top: 150px;
   border: none;
   padding: 6px 20px;
-border-radius: 20px;
+  border-radius: 20px;
 }
 /* timer */
 .hero-timer {
@@ -239,7 +239,7 @@ input {
 .project-content h4 {
   text-transform: capitalize;
 }
-.project-section .project-content button{
+.project-section .project-content button {
   background-color: black;
   color: white;
   text-transform: capitalize;
@@ -248,38 +248,35 @@ input {
   border: none;
   word-spacing: 1px;
 }
-.project-card{
+.project-card {
   width: 40%;
   height: 20vh;
   background-color: #e1e0d0;
-position: relative;
-top: 203px;
-right: -355px;
-border: 6px solid white;
-border-radius: 10px;
-
+  position: relative;
+  top: 203px;
+  right: -355px;
+  border: 6px solid white;
+  border-radius: 10px;
 }
-.project-card1{
+.project-card1 {
   width: 40%;
   height: 20vh;
   background-color: #e1e0d0;
-position: relative;
-top: 70px;
-right: 90px;
-border: 6px solid white;
-border-radius: 10px;
-
+  position: relative;
+  top: 70px;
+  right: 90px;
+  border: 6px solid white;
+  border-radius: 10px;
 }
-.project-card2{
+.project-card2 {
   width: 40%;
   height: 20vh;
   background-color: #e1e0d0;
-position: relative;
-top: -116px;
-    right: 122px;
-border: 6px solid white;
-border-radius: 10px;
-
+  position: relative;
+  top: -116px;
+  right: 122px;
+  border: 6px solid white;
+  border-radius: 10px;
 }
 .project-icon i {
   color: #ed8569;
@@ -294,11 +291,10 @@ border-radius: 10px;
 .project-section .project-img img {
   width: 100%;
 }
-@media screen and (max-width:600px) {
+@media screen and (max-width: 600px) {
   .project-section .project-content p {
- 
-  width: 100%;
-}
+    width: 100%;
+  }
 }
 /* contact-section */
 .contact-section {
@@ -402,10 +398,20 @@ border-radius: 10px;
   font-size: 50px;
   padding-top: 90px;
 }
-.radium-content p {
+.radium-content .para-content {
   width: 76%;
   padding-top: 20px;
   overflow: hidden;
+}
+.radium-content button {
+  margin-top: 30px;
+  background-color: white;
+  color: black;
+  text-transform: capitalize;
+  border-radius: 20px;
+  padding: 8px 20px;
+  border: none;
+  word-spacing: 1px;
 }
 .solsacn {
   background-color: #df96ae;
@@ -452,6 +458,26 @@ border-radius: 10px;
 .image-mbl img {
   width: 100%;
 }
+.contract-adress h2{
+  font-size: 28px;
+  text-transform: capitalize;
+  color: black;
+  margin: 0;
+  padding: 0;
+}
+.contract-adress p{
+  font-size: 15px;
+  text-transform: capitalize;
+  color:black;
+  margin: 0;
+  background-color: #fdeeea;
+  width: 40%;
+display: flex;
+align-items: center;
+justify-content: center;
+border-radius: 20px;
+margin-left: 20px;
+}
 @media screen and (max-width: 600px) {
   .mbl {
     position: relative;
@@ -459,21 +485,20 @@ border-radius: 10px;
   }
   .solsacn {
     left: 70px;
- 
   }
   .solscan2 {
     width: 14%;
     right: -10px;
     top: 80px;
   }
-  .image-mbl{
+  .image-mbl {
     left: 94px;
   }
-  .radium-content h3{
+  .radium-content h3 {
     font-size: 40px;
   }
-  .radium-content p{
-  width: 100%;
+  .radium-content p {
+    width: 100%;
   }
 }
 /* footer-section */
@@ -484,9 +509,9 @@ border-radius: 10px;
   padding-top: 10px;
   width: 80%;
 }
-.footer-section  h3{
+.footer-section h3 {
   text-transform: capitalize;
 }
-.footer-section  h4{
+.footer-section h4 {
   text-transform: capitalize;
 }
