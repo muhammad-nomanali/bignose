@@ -210,12 +210,12 @@ input {
 /* project-section */
 
 .project-section {
-  margin-top: 50px;
+
   background-image: url(./asset/images/Rectangle\ 3.png);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  padding-top: 70px;
+
   overflow: hidden;
 }
 .project-section .project-content {
@@ -294,6 +294,90 @@ input {
 @media screen and (max-width: 600px) {
   .project-section .project-content p {
     width: 100%;
+  }
+  .project-img{
+    width: 70% !important;
+    margin: 0 auto !important;
+  }
+  .project-card1 {
+    width: 29%;
+    height: 15vh;
+    background-color: #e1e0d0;
+    position: relative;
+    top: 70px;
+    right: 8px;
+    border: 6px solid white;
+    border-radius: 10px;
+}
+
+.project-card {
+    width: 29%;
+    height: 15vh;
+    background-color: #e1e0d0;
+    position: relative;
+    top: 226px;
+    right: -355px;
+    border: 6px solid white;
+    border-radius: 10px;
+}
+.project-card2 {
+  width: 29%;
+  height: 16vh;
+  background-color: #e1e0d0;
+  position: relative;
+  top: -59px;
+  right: 5px;
+  border: 6px solid white;
+  border-radius: 10px;
+}
+
+}
+@media screen and (max-width: 560px) {
+  .project-card {
+      width: 29%;
+      height: 15vh;
+      background-color: #e1e0d0;
+      position: relative;
+      top: 146px;
+      right: -355px;
+      border: 6px solid white;
+      border-radius: 10px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .project-card {
+      width: 29%;
+      height: 15vh;
+      background-color: #e1e0d0;
+      position: relative;
+      top: 149px !important;
+      right: -279px !important;
+      border: 6px solid white;
+      border-radius: 10px;
+  }
+}
+@media screen and (max-width: 430px) {
+  .project-card {
+      width: 29%;
+      height: 15vh;
+      background-color: #e1e0d0;
+      position: relative;
+      top: 207px;
+      right: -279px;
+      border: 6px solid white;
+      border-radius: 10px;
+  }
+}
+@media screen and (max-width: 370px) {
+  .project-card {
+      width: 29%;
+      height: 15vh;
+      background-color: #e1e0d0;
+      position: relative;
+      top: 149px !important;
+      right: -248px !important;
+      border: 6px solid white;
+      border-radius: 10px;
   }
 }
 /* contact-section */
@@ -479,6 +563,9 @@ border-radius: 20px;
 margin-left: 20px;
 }
 @media screen and (max-width: 600px) {
+  .radium-content .para-content{
+    width: 100% !important;
+  }
   .mbl {
     position: relative;
     left: 70px;
@@ -500,7 +587,15 @@ margin-left: 20px;
   .radium-content p {
     width: 100%;
   }
+  .contract-adress{
+    display: block !important;
+  } 
+  .radium-content p {
+    width: 70%;
 }
+}
+
+
 /* footer-section */
 .footer-section {
   padding-top: 70px;
